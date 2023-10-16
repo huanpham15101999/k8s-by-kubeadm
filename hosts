@@ -1,0 +1,10 @@
+[masters]
+master ansible_host=10.5.83.36 ansible_user=huanpd
+
+[workers]
+worker1 ansible_host=10.5.83.53 ansible_user=huanpd
+worker2 ansible_host=10.5.83.97 ansible_user=huanpd
+worker3 ansible_host=10.5.83.108 ansible_user=huanpd
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
